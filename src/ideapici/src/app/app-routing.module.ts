@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { UnknownPageComponent } from './unknown-page/unknown-page.component';
+import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
 
 const routes: Routes = [
-  {path: "**", component: UnknownPageComponent},
+  {path: "**", component: NotFoundPageComponent},
 ];
 
 @NgModule({

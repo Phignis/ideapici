@@ -3,12 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { UnknownPageComponent } from './unknown-page/unknown-page.component';
+import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UnknownPageComponent
+    NotFoundPageComponent
   ],
   imports: [
     BrowserModule,

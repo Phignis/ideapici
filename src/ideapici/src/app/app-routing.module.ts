@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
-
+import { SetupChoiceComponent } from './pages/setup-choice/setup-choice.component';
 const routes: Routes = [
   {path: "**", component: NotFoundPageComponent},
+  {path: "setupChoise", component: SetupChoiceComponent},
 ];
 
 @NgModule({

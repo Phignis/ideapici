@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: Poppins;
+    src: url("assets/fonts/poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url("assets/fonts/comfortaa/Comfortaa-VariableFont_wght.ttf") format("truetype");
+}
+
+:root {
+    /* Colors variables */
+    --primary-color: #78D6C6;
+    --secondary-color: #1E555C;
+    --interactible-color: #CCBFE0;
+    --interactible-darker-color: #B8ACCA;
+    --interactible-darker-2-color: #666070;
+    --background-color: #DAF4EF;
+
+    /** set rem base at 16px */
+    font-size: 16px;
+
+    /* text font variables */
+    --description-subtitle-font: 0.812rem 'Poppins', sans-serif;
+    --text-font: 1rem 'Poppins', sans-serif;
+    --text-larger-font: 1.250rem 'Poppins', sans-serif;
+    --text-title-font: 1.562rem 'Poppins', sans-serif;
+}

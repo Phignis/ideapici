@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
 
 const routes: Routes = [
+  // TODO : substitute NotFoundPageComponent with landing page
+  {path: "index", component: NotFoundPageComponent},
   {path: "**", component: NotFoundPageComponent},
 ];
 

@@ -8,7 +8,7 @@ import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.com
 @NgModule({
   declarations: [
     AppComponent,
-    NotFoundPageComponent
+    NotFoundPageComponent,
   ],
   imports: [
     BrowserModule,

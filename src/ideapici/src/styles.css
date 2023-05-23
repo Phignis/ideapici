@@ -26,3 +26,7 @@
     --text-larger-font: 1.250rem 'Poppins', sans-serif;
     --text-title-font: 1.562rem 'Poppins', sans-serif;
 }
+
+body {
+    background-color: var(--background-color);
+}

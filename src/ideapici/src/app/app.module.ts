@@ -10,6 +10,8 @@ import { PcCardComponent } from './components/pc-card/pc-card.component';
 import { TextcomboboxComponent } from './components/textcombobox/textcombobox.component';
 import { TextSliderComponent } from './components/text-slider/text-slider.component';
 import { QuestionsPageComponent } from './pages/questions-page/questions-page.component';
+import { QuestionCardsComponent } from './pages/question-cards/question-cards.component';
+import { QuestionIndicatorComponent } from './pages/question-indicator/question-indicator.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { QuestionsPageComponent } from './pages/questions-page/questions-page.co
     PcCardComponent,
     QuestionsPageComponent,
     TextcomboboxComponent,
-    TextSliderComponent
+    TextSliderComponent,
+    QuestionCardsComponent,
+    QuestionIndicatorComponent
   ],
   imports: [
     AppRoutingModule,

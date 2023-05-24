@@ -1,0 +1,9 @@
+#config_link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#config_link a {
+    margin-right: 13rem;
+}

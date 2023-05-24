@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
@@ -18,13 +17,14 @@ import { QuestionsPageComponent } from './pages/questions-page/questions-page.co
     NotFoundPageComponent,
     SetupChoiceComponent,
     PcCardComponent,
+    QuestionsPageComponent,
     TextcomboboxComponent,
     TextSliderComponent
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
-    FormsModule
+    BrowserModule,
+    FormsModule    
   ],
   providers: [],
   bootstrap: [AppComponent]

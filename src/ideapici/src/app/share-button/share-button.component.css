@@ -1,0 +1,25 @@
+#sharing_button-icon {
+    width: 4vw;
+    height: auto;
+}
+
+h1 {
+    font: var(--text-larger-font);
+    color: var(--primary-color);
+}
+
+figure {
+    padding-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--background-color);
+}
+
+.sharing_button {
+    width: 12vw;
+    height: 20vw;
+    background-color: var(--secondary-color);
+    border-radius: 5%;
+}

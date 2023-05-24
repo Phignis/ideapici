@@ -18,8 +18,8 @@ figure {
 }
 
 .sharing_button {
-    width: 12vw;
-    height: 20vw;
+    width: 14vw;
+    height: 22vw;
     background-color: var(--secondary-color);
     border-radius: 5%;
 }

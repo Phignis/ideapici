@@ -31,7 +31,7 @@ header .central-part {
 }
 
 .central-part p {
-    font: var(--text-larger-font);
+    font: var(--text-title-font);
 }
 
 header .connexion-part {

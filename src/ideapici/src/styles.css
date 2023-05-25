@@ -45,6 +45,19 @@ body {
     font: var(--title-major-font)
 }
 
+.text-link, .text-title-link {
+    color:var(--interactible-darker-2-color);
+}
+
 .text-link {
     font: var(--text-font);
+}
+
+.text-title-link {
+    font: var(--text-title-font);
+}
+
+.text-link:hover, .text-title-link:hover {
+    transform: scale(1.05);
+    transition: all 250ms ease-in-out;
 }

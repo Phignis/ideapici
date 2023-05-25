@@ -1,0 +1,12 @@
+div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+}
+
+div p {
+    color: var(--secondary-color);
+}

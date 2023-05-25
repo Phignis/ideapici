@@ -25,6 +25,10 @@
     --text-font: 1rem 'Poppins', sans-serif;
     --text-larger-font: 1.250rem 'Poppins', sans-serif;
     --text-title-font: 1.562rem 'Poppins', sans-serif;
+    --title-minor-font: 1.938rem 'Comfortaa', sans-serif;
+    --title-font: 2.438rem 'Comfortaa', sans-serif;
+    --title-major-font: 3.062rem 'Comfortaa', sans-serif;
+    --title-page-font: 3.812rem 'Comfortaa', sans-serif;
 }
 
 body {
@@ -35,6 +39,10 @@ body {
     /* usefull to display on larger screen, juste max using 1980px, margin here to ensure that body is centered */
     max-width: 1980px;
     margin: auto;
+}
+
+.major-title {
+    font: var(--title-major-font)
 }
 
 .text-link {

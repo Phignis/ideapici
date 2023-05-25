@@ -9,6 +9,8 @@ import { PeopleProfileIconComponent } from './components/icons/people-profile-ic
 import { PeopleIncriptionAddIconComponent } from './components/icons/people-incription-add-icon/people-incription-add-icon.component';
 import { HeaderComponent } from './components/header/header.component';
 import { SVGComponentComponent } from './components/icons/svgcomponent/svgcomponent.component';
+import { IdeapiciLogoSvgComponent } from './components/icons/ideapici-logo-svg/ideapici-logo-svg.component';
+import { TitledIconIdeapiciComponent } from './components/titled-icon-ideapici/titled-icon-ideapici.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { SVGComponentComponent } from './components/icons/svgcomponent/svgcompon
     PeopleIncriptionAddIconComponent,
     HeaderComponent,
     SVGComponentComponent,
+    IdeapiciLogoSvgComponent,
+    TitledIconIdeapiciComponent,
   ],
   imports: [
     BrowserModule,

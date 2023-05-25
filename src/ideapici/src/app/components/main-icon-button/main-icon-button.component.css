@@ -19,9 +19,12 @@
     padding: 0;
 }
 
+.main-button-iconified:hover {
+    transform: scale(1.05);
+    transition: all 250ms ease-in-out;
+}
+
 .main-button-iconified:hover p {
     color: var(--interactible-color);
-    transform: scale(1.1);
     font-weight: bold;
-    transition: all 200ms ease-in-out;
 }

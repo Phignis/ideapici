@@ -8,6 +8,7 @@ import { MainIconButtonComponent } from './components/main-icon-button/main-icon
 import { PeopleProfileIconComponent } from './components/icons/people-profile-icon/people-profile-icon.component';
 import { PeopleIncriptionAddIconComponent } from './components/icons/people-incription-add-icon/people-incription-add-icon.component';
 import { HeaderComponent } from './components/header/header.component';
+import { SVGComponentComponent } from './components/icons/svgcomponent/svgcomponent.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HeaderComponent } from './components/header/header.component';
     PeopleProfileIconComponent,
     PeopleIncriptionAddIconComponent,
     HeaderComponent,
+    SVGComponentComponent,
   ],
   imports: [
     BrowserModule,

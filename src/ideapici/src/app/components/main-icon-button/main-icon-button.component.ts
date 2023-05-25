@@ -1,10 +1,11 @@
-import { Component, HostListener, Input } from '@angular/core';
+import { Component, ContentChild, ElementRef, HostListener, Input } from '@angular/core';
 import { Router } from '@angular/router';
+import { SVGComponentComponent } from '../icons/svgcomponent/svgcomponent.component';
 
 @Component({
   selector: 'app-main-icon-button',
   templateUrl: './main-icon-button.component.html',
-  styleUrls: ['./main-icon-button.component.css']
+  styleUrls: ['./main-icon-button.component.css'],
 })
 export class MainIconButtonComponent {
   @Input()
@@ -12,6 +13,11 @@ export class MainIconButtonComponent {
 
   @Input()
   public textToDisplay: string = 'PlaceHolder';
+
+  @ContentChild(SVGComponentComponent) // ContentChild search in the projected DOM (inside elements of ng-content)
+  svg_component!: SVGComponentComponent;
+
+  private rootStyle: any = window.getComputedStyle(document.body);
 
   constructor(private router: Router) {}
 
@@ -21,13 +27,12 @@ export class MainIconButtonComponent {
 
   @HostListener('mouseenter')
   private onMouseEnter() {
-    console.log("mouse entered");
+    this.svg_component.fillColor = this.rootStyle.getPropertyValue('--interactible-color');
   }
 
   @HostListener('mouseleave')
   private onMouseLeaving() {
-    console.log("mouse has leaved")
+    this.svg_component.fillColor = this.rootStyle.getPropertyValue('--primary-color');
   }
-
 
 }

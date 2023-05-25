@@ -1,6 +1,6 @@
-<button (click)="redirect('toto')" class="main-button-iconified">
+<button (click)="redirect(destination)" class="main-button-iconified">
     <p>
-        Click
+        {{textToDisplay}}
     </p>
-    <app-people-profile-icon [fillColor]="rootStyle.getPropertyValue('--primary-color')"></app-people-profile-icon>
+    <ng-content></ng-content> <!-- Content should be an image, but other content can be displayed -->
 </button>

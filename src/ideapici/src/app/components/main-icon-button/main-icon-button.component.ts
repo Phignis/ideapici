@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -7,12 +7,15 @@ import { Router } from '@angular/router';
   styleUrls: ['./main-icon-button.component.css']
 })
 export class MainIconButtonComponent {
+  @Input()
+  public destination: string = '';
 
-  protected rootStyle: any = window.getComputedStyle(document.body)
+  @Input()
+  public textToDisplay: string = 'PlaceHolder';
 
   constructor(private router: Router) {}
 
   protected redirect(wantedDestination: string) : void {
-    this.router.navigate([`/${wantedDestination}`]);
+    this.router.navigate([`/${this.destination}`]);
   }
 }

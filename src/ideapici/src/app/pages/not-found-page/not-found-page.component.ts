@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./not-found-page.component.css']
 })
 export class NotFoundPageComponent {
-
+  protected rootStyle: any = window.getComputedStyle(document.body);
 }

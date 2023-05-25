@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, HostListener, Input } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -18,4 +18,16 @@ export class MainIconButtonComponent {
   protected redirect(wantedDestination: string) : void {
     this.router.navigate([`/${this.destination}`]);
   }
+
+  @HostListener('mouseenter')
+  private onMouseEnter() {
+    console.log("mouse entered");
+  }
+
+  @HostListener('mouseleave')
+  private onMouseLeaving() {
+    console.log("mouse has leaved")
+  }
+
+
 }

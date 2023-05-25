@@ -26,3 +26,17 @@
     --text-larger-font: 1.250rem 'Poppins', sans-serif;
     --text-title-font: 1.562rem 'Poppins', sans-serif;
 }
+
+body {
+    margin: 0;
+    padding: 16px;
+    background-color: var(--background-color);
+
+    /* usefull to display on larger screen, juste max using 1980px, margin here to ensure that body is centered */
+    max-width: 1980px;
+    margin: auto;
+}
+
+.text-link {
+    font: var(--text-font);
+}

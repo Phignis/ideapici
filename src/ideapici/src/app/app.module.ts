@@ -7,6 +7,7 @@ import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.com
 import { MainIconButtonComponent } from './components/main-icon-button/main-icon-button.component';
 import { PeopleProfileIconComponent } from './components/icons/people-profile-icon/people-profile-icon.component';
 import { PeopleIncriptionAddIconComponent } from './components/icons/people-incription-add-icon/people-incription-add-icon.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { PeopleIncriptionAddIconComponent } from './components/icons/people-incr
     MainIconButtonComponent,
     PeopleProfileIconComponent,
     PeopleIncriptionAddIconComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,25 @@
+<header>
+    <div class="logo-part">
+        Logo Ideapici
+    </div>
+    <div class="central-part">
+        <nav>
+            <!-- TODO : add routerLink directive -->
+            <a class="text-link">Commence avec moi</a>
+            <a class="text-link">Voit Mes PCs</a>
+            <a class="text-link">Je t'aides</a>
+        </nav>
+        <p>
+            Easy peazy, easy PC! LA configuration pour TES besoins, grâce à moi!
+        </p>
+    </div>
+    <div class="connexion-part">
+        <app-main-icon-button [textToDisplay]="'Connexion'">
+            <app-people-profile-icon [fillColor]="rootStyle.getPropertyValue('--primary-color')"></app-people-profile-icon>
+        </app-main-icon-button>
+        <br /><br />
+        <app-main-icon-button [textToDisplay]="'Inscription'">
+            <app-people-incription-add-icon [fillColor]="rootStyle.getPropertyValue('--primary-color')"></app-people-incription-add-icon>
+        </app-main-icon-button>
+    </div>
+</header>

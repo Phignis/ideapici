@@ -5,8 +5,9 @@ import { SetupChoiceComponent } from './pages/setup-choice/setup-choice.componen
 const routes: Routes = [
   // TODO : substitute NotFoundPageComponent with landing page
   {path: "index", component: NotFoundPageComponent},
+  {path: "setupChoice", component: SetupChoiceComponent},
   {path: "**", component: NotFoundPageComponent},
-  {path: "setupChoise", component: SetupChoiceComponent},
+  
 ];
 
 @NgModule({

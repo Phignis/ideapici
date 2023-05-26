@@ -5,9 +5,12 @@ import { SetupChoiceComponent } from './pages/setup-choice/setup-choice.componen
 import { QuestionsPageComponent } from './pages/questions-page/questions-page.component';
 
 const routes: Routes = [
-  {path: 'questions-page', component: QuestionsPageComponent},
-  {path: 'setup-choice', component: SetupChoiceComponent},
-  {path: "**", component: NotFoundPageComponent}
+
+  // TODO : substitute NotFoundPageComponent with landing page
+  {path: "index", component: NotFoundPageComponent},
+  {path: "setup-choice", component: SetupChoiceComponent},
+  {path: "**", component: NotFoundPageComponent},
+  
 ];
 
 @NgModule({

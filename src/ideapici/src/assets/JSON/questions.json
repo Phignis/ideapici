@@ -1,0 +1,11 @@
+[
+    {
+        "question":"Quel sera principalement l'usage de votre ordinateur ?",
+        "réponses":{
+            "rep1":"travail",
+            "rep2":"études",
+            "rep3":"divertissement"
+        },
+        "rep_utilisateur":""
+    }
+]

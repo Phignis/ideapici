@@ -1,0 +1,18 @@
+.performance-card {
+    width: 14vw;
+    height: 22vw;
+    background-color: var(--primary-color);
+    border-radius: 5%;
+}
+
+h1 {
+    font: var(--text-larger-font);
+    
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

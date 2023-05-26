@@ -9,5 +9,5 @@ export class TextSliderComponent {
   @Input() Title: any;
   @Input() min: any;
   @Input() max: any;
-  sliderValue = 0;
+  @Input() sliderValue : any;
 }

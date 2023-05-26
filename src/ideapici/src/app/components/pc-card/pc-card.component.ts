@@ -7,9 +7,9 @@ import { Component, Input } from '@angular/core';
 })
 export class PcCardComponent {
   constructor(){}
-  @Input() cpu : string;
-  @Input() gpu : string;
-  @Input() ram : string;
-  @Input() brand : string;
-  @Input() cost : string;
+  @Input() cpu: string;
+  @Input() gpu: string;
+  @Input() ram: number;
+  @Input() brand: string;
+  @Input() cost: number;
 }

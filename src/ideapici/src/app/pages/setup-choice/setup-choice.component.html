@@ -15,10 +15,15 @@
                     <app-textcombobox Text="Valorant" [option]="['60 FPS', '144 FPS' ]"></app-textcombobox>
                 </div>
         </div>
-        <div class="setuplist">
-            <app-pc-card cpu='intel' gpu="rtx3090" ram="65go" brand="ASUS" cost="29900"></app-pc-card>
-            <app-pc-card cpu='intel' gpu="rtx3090" ram="65go" brand="ASUS" cost="29900"></app-pc-card>
-            <app-pc-card cpu='intel' gpu="rtx3090" ram="65go" brand="ASUS" cost="29900"></app-pc-card>
-        </div>
+        <div class="setuplist" >
+            <app-pc-card *ngFor="let index of getIndicesArray(pcs.length)"
+              [cpu]="pcs[index].system.cpu.nom"
+              [gpu]="pcs[index].system.cg.marque"
+              [ram]="pcs[index].system.ram"
+              [brand]="pcs[index].marque"
+              [cost]="pcs[index].prix">
+            </app-pc-card>
+          </div>
+          
     </div>
 </body>

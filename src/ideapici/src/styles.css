@@ -61,3 +61,33 @@ body {
     transform: scale(1.05);
     transition: all 250ms ease-in-out;
 }
+
+@keyframes flickers-path-svg {
+	0% {
+		stroke: var(--interactible-color);
+        stroke-width: 10px;
+	}
+	10% {
+		stroke: var(--interactible-darker-2-color);
+        stroke-width: 8px;
+		transform: rotate(-0.5deg);
+	}
+	30% {
+		stroke: var(--interactible-color);
+        stroke-width: 6px;
+		transform: rotate(0deg);
+	}
+	60% {
+		stroke: var(--interactible-darker-color);
+        stroke-width: 12px;
+	}
+	80% {
+        stroke-width: 7px;
+		transform: rotate(0.5deg);
+	}
+	100% {
+        stroke-width: 11px;
+		stroke: var(--interactible-darker-color);
+		transform: rotate(0deg);
+	}
+}

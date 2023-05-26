@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SVGComponentComponent } from './components/icons/svgcomponent/svgcomponent.component';
 import { IdeapiciLogoSvgComponent } from './components/icons/ideapici-logo-svg/ideapici-logo-svg.component';
 import { TitledIconIdeapiciComponent } from './components/titled-icon-ideapici/titled-icon-ideapici.component';
+import { IdeapiciLogoSvgWiredComponent } from './components/icons/ideapici-logo-svg-wired/ideapici-logo-svg-wired.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { TitledIconIdeapiciComponent } from './components/titled-icon-ideapici/t
     SVGComponentComponent,
     IdeapiciLogoSvgComponent,
     TitledIconIdeapiciComponent,
+    IdeapiciLogoSvgWiredComponent,
   ],
   imports: [
     BrowserModule,

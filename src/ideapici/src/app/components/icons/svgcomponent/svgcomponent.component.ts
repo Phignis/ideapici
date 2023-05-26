@@ -7,6 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class SVGComponentComponent {
   @Input()
-  public fillColor: string = '#78D6C6';
+  public fillColor: string = 'red';
 }
-

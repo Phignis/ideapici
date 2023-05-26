@@ -34,5 +34,4 @@ export class MainIconButtonComponent {
   private onMouseLeaving() {
     this.svg_component.fillColor = this.rootStyle.getPropertyValue('--primary-color');
   }
-
 }

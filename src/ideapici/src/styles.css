@@ -41,12 +41,17 @@ body {
     margin: auto;
 }
 
+.page-title {
+    font: var(--title-major-font);
+    color: var(--secondary-color);
+}
+
 .major-title {
-    font: var(--title-major-font)
+    font: var(--title-major-font);
 }
 
 .text-link, .text-title-link {
-    color:var(--interactible-darker-2-color);
+    color: var(--interactible-darker-2-color);
 }
 
 .text-link {

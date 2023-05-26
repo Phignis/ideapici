@@ -9,6 +9,7 @@ import { ShareButtonComponent } from './components/share-button/share-button.com
 import { SharingLinkButtonComponent } from './components/sharing-link-button/sharing-link-button.component';
 import { PerformanceCardComponent } from './components/performance-card/performance-card.component';
 import { PerformanceInfoComponent } from './components/performance-info/performance-info.component';
+import { ConfigVisualisationPageComponent } from './pages/config-visualisation-page/config-visualisation-page.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PerformanceInfoComponent } from './components/performance-info/performa
     ShareButtonComponent,
     SharingLinkButtonComponent,
     PerformanceCardComponent,
-    PerformanceInfoComponent
+    PerformanceInfoComponent,
+    ConfigVisualisationPageComponent
   ],
   imports: [
     BrowserModule,

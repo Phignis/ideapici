@@ -3,7 +3,20 @@ svg {
     width: auto;
 }
 
+svg:hover, svg:hover .modifiable-color-path {
+    transition: all 200ms ease-in-out;
+}
+
 svg:hover {
     transform: scale(1.1);
-    transition: all 200ms ease-in-out;
+}
+
+svg:hover .modifiable-color-path {
+    fill: var(--interactible-darker-2-color);
+}
+
+svg:hover .movable-part {
+    /* TODO : make movable part moving like lighting up */
+    fill: #ffd679;
+    transition: all 400ms ease-in-out;
 }

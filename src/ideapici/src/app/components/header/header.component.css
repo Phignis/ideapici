@@ -20,7 +20,7 @@ header .central-part {
 .central-part nav {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     
     width: 100%;

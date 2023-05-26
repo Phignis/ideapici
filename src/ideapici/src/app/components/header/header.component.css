@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+
+    padding: 0;
+    width:100%;
+}
+
+header .central-part {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 4px;
+}
+
+.central-part nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 100%;
+}
+
+.central-part nav, .central-part p {
+    margin: 0;
+}
+
+.central-part p {
+    font: var(--text-title-font);
+}
+
+header .connexion-part {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}

@@ -1,0 +1,15 @@
+div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    column-gap: 16px;
+    row-gap: 2px;
+    padding: 0;
+}
+
+div p {
+    color: var(--secondary-color);
+    margin: 0;
+}

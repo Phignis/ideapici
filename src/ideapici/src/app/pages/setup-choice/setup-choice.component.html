@@ -1,1 +1,24 @@
-<p>setup-choice works!</p>
+
+<body>
+    <h2>Je te propose ces configs, clique sur ta favorite</h2>
+    <div class="sujet">
+        <div class="filter">
+            <p>Filters</p>
+                <div>
+                    <app-textcombobox Text="Preference CPU" [option]="['Intel', 'AMDé' ]"></app-textcombobox>
+                    <app-textcombobox Text="Preference GPU" [option]="['NVIDAI', 'AMDé' ]"></app-textcombobox>
+                    <app-text-slider Title="Budget" min="0" max="2500"></app-text-slider>
+                </div>
+            <p>Jeux vidéo</p>
+                <div>
+                    <app-textcombobox Text="Fortnite" [option]="['60 FPS', '144 FPS' ]"></app-textcombobox>
+                    <app-textcombobox Text="Valorant" [option]="['60 FPS', '144 FPS' ]"></app-textcombobox>
+                </div>
+        </div>
+        <div class="setuplist">
+            <app-pc-card cpu='intel' gpu="rtx3090" ram="65go" brand="ASUS" cost="29900"></app-pc-card>
+            <app-pc-card cpu='intel' gpu="rtx3090" ram="65go" brand="ASUS" cost="29900"></app-pc-card>
+            <app-pc-card cpu='intel' gpu="rtx3090" ram="65go" brand="ASUS" cost="29900"></app-pc-card>
+        </div>
+    </div>
+</body>

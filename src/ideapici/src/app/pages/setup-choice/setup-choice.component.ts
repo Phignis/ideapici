@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import * as data from '../../../assets/JSON/pc.json';
+import { Question } from '../questions-page/questions-page.component';
 
 @Component({
   selector: 'app-setup-choice',
@@ -7,11 +8,13 @@ import * as data from '../../../assets/JSON/pc.json';
   styleUrls: ['./setup-choice.component.css']
 })
 export class SetupChoiceComponent implements OnInit  {
+  @Input() Answers : Question[];
   pcs: Pc[] = data;
 
   ngOnInit(): void {
     //console.log(this.pcs[0].system.cpu.marque);
-    this.display_pc();
+    console.log(this.pcs);
+    console.log(this.Answers);
   }
 
   display_pc(): void {

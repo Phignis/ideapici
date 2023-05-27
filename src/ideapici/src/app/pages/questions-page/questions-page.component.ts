@@ -8,3 +8,11 @@ import { Component } from '@angular/core';
 export class QuestionsPageComponent {
 
 }
+
+export class Question{
+  question: string;
+  reponses: string[];
+  rep_utilisateur:string;
+  "questions-portable"?: Question[];
+
+}

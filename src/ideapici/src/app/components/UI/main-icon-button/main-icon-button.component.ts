@@ -1,6 +1,6 @@
 import { Component, ContentChild, ElementRef, HostListener, Input } from '@angular/core';
 import { Router } from '@angular/router';
-import { SVGComponentComponent } from '../icons/svgcomponent/svgcomponent.component';
+import { SVGComponentComponent } from '../../icons/svgcomponent/svgcomponent.component';
 
 @Component({
   selector: 'app-main-icon-button',

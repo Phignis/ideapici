@@ -31,14 +31,22 @@
     --title-page-font: 3.812rem 'Comfortaa', sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     margin: 0;
-    padding: 16px;
+    padding: 0px 16px;
     background-color: var(--background-color);
 
     /* usefull to display on larger screen, juste max using 1980px, margin here to ensure that body is centered */
     max-width: 1980px;
     margin: auto;
+}
+
+.page-content {
+    margin-top: 16px;
 }
 
 .page-title {
@@ -94,5 +102,26 @@ body {
         stroke-width: 11px;
 		stroke: var(--interactible-darker-color);
 		transform: rotate(0deg);
+	}
+}
+
+@keyframes swing {
+	0% {
+		transform: rotate(0deg);
+	}
+	10% {
+		transform: rotate(-5deg);
+	}
+	30% {
+		transform: rotate(5deg) scale(1.2);
+	}
+	60% {
+		transform: rotate(-5deg) scale(1);
+	}
+	80% {
+		transform: rotate(5deg) scale(1.5);
+	}
+	100% {
+		transform: rotate(0deg) scale(1.2);
 	}
 }

@@ -9,7 +9,6 @@ svg:hover {
 }
 
 svg:hover .movable-part {
-    /* TODO : make movable part moving like lighting up */
     animation: flickers-path-svg 600ms linear;
     stroke: var(--interactible-color)
 }

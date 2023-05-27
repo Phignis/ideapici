@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+    padding: 0;
+    width:100%;
+}
+
+header .central-part {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 4px;
+}
+
+:host {
+    margin-top: 24px;
+}
+
+.central-part p {
+    margin: 0;
+    font: var(--title-page-font);
+    color: var(--secondary-color);
+}

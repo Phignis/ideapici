@@ -1,15 +1,10 @@
 svg {
-    height: 100px;
+    height: 130px;
     width: auto;
 }
 
 svg:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
+    animation: swing 600ms linear;
     transition: all 200ms ease-in-out;
-}
-
-svg:hover .movable-part {
-    /* TODO : make movable part moving like lighting up */
-    fill: var(--interactible-color);
-    transition: all 400ms ease-in-out;
 }

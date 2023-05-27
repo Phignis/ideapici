@@ -1,0 +1,23 @@
+:host {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    gap: 40px;
+    height: 100%;
+}
+
+.page-content, .header-hero {
+    flex-grow: 1;
+}
+
+.page-hero {
+    flex-grow: 2;
+}
+
+.page-hero app-hero-button {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

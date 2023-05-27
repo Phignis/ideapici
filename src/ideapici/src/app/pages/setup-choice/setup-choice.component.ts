@@ -13,26 +13,19 @@ export class SetupChoiceComponent implements OnInit  {
 
   ngOnInit(): void {
     //console.log(this.pcs[0].system.cpu.marque);
+
+    const questionJson = localStorage.getItem('question');
+    this.Answers = JSON.parse(questionJson);
     console.log(this.pcs);
     console.log(this.Answers);
+
   }
 
-  display_pc(): void {
-    for (let i = 0; i < this.pcs.length; i++) {
-      try {
-        console.log(this.pcs[i]);
-      } catch (error) {
-        console.log('Erreur de conversion en chaîne de caractères :', error);
-        console.log('PC avec erreur :', this.pcs[i]);
-      }
-    }
-  }
   getIndicesArray(length: number): number[] {
     return Array.from({ length }, (_, index) => index);
   }
   
 }
-
 
 interface Pc {
   marque: string;

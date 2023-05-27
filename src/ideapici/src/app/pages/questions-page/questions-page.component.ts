@@ -13,6 +13,12 @@ export class Question{
   question: string;
   reponses: string[];
   rep_utilisateur:string;
-  "questions-portable"?: Question[];
+  "questions-portable"?: QuestionPortable;
 
+}
+
+export class QuestionPortable{
+  gp1 : Question;
+  gp2 : Question;
+  gp3 : Question;
 }

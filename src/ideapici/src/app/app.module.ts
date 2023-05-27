@@ -10,8 +10,8 @@ import { PcCardComponent } from './components/pc-card/pc-card.component';
 import { TextcomboboxComponent } from './components/textcombobox/textcombobox.component';
 import { TextSliderComponent } from './components/text-slider/text-slider.component';
 import { QuestionsPageComponent } from './pages/questions-page/questions-page.component';
-import { QuestionCardsComponent } from './pages/question-cards/question-cards.component';
-import { QuestionIndicatorComponent } from './pages/question-indicator/question-indicator.component';
+import { QuestionCardsComponent } from './components/question-cards/question-cards.component';
+import { QuestionIndicatorComponent } from './components/question-indicator/question-indicator.component';
 
 @NgModule({
   declarations: [

@@ -1,11 +1,62 @@
 [
+
+    {
+        "question":"Préférez-vous un ordinateur portable ou fixe ?",
+        "reponses":[
+            "portable",
+            "Fixe"
+        ],
+        "rep_utilisateur":"Fixe",
+        "questions-portable":{
+            "qp1":{
+            "question":"Préférez-vous un écran de petite taille ou de grande taille ?",
+            "reponses":[
+                "Petite taille",
+                "Grande taille"
+            ],
+            "rep_utilisateur":"Grande taille"
+            },
+            "qp2":{
+                "question":"Avez-vous besoin d'une autonomie de batterie étendue ?",
+                "reponses":[
+                    "Oui",
+                    "Non"
+                ],
+                "rep_utilisateur":"Oui"
+                },
+            "qp3":{
+                "question":"Souhaitez-vous un pavé numérique intégré à votre clavier ?",
+                "reponses":[
+                    "Oui",
+                    "Non"
+                ],
+                "rep_utilisateur":"Oui"
+                }
+        }
+    },
     {
         "question":"Quel sera principalement l'usage de votre ordinateur ?",
-        "réponses":{
-            "rep1":"travail",
-            "rep2":"études",
-            "rep3":"divertissement"
-        },
+        "reponses":[
+            "travail",
+            "études",
+            "divertissement"
+        ],
         "rep_utilisateur":""
+    },
+    {
+        "question":"Privilégiez-vous une grande capacité de stockage ou une vitesse de traitement plus rapide ?",
+        "reponses":[
+            "Grande capacité de stockage",
+            "Vitesse de traitement plus rapide"
+        ],
+        "rep_utilisateur":"Vitesse de traitement plus rapide"
+    },
+    {
+        "question":"Avez-vous besoin d'une carte graphique puissante pour les jeux ou le montage vidéo ?",
+        "reponses":[
+            "Oui",
+            "Non"
+        ],
+        "rep_utilisateur":"Non"
     }
 ]

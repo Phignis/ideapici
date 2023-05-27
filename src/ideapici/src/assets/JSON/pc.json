@@ -248,7 +248,7 @@
             },
             "hdd": {
                 "capacite": 3840,
-                "type": "mvne",
+                "type": "nvme",
                 "rpm": null,
                 "vitesse-transfert": 3000
             },
@@ -291,7 +291,7 @@
             },
             "hdd": {
                 "capacite": 2048,
-                "type": "mvne",
+                "type": "nvme",
                 "rpm": null,
                 "vitesse-transfert": 3000
             },
@@ -334,7 +334,7 @@
             },
             "hdd": {
                 "capacite": 1024,
-                "type": "mvne",
+                "type": "nvme",
                 "rpm": null,
                 "vitesse-transfert": 3000
             },
@@ -377,7 +377,7 @@
             },
             "hdd": {
                 "capacite": 256,
-                "type": "mvne",
+                "type": "nvme",
                 "rpm": null,
                 "vitesse-transfert": 3000
             },

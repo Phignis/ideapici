@@ -1,16 +1,28 @@
+.not-displayed {
+    display: none;
+}
+
 .connexion-interactible {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    row-gap: 64px;
 
-    padding: 24px 8px;
+    padding: 48px 16px;
     background-color: var(--secondary-color);
     border-radius: 24px;
 }
 
-.connexion-interactible form {
+.connexion-interactible-folded {
+    row-gap: 64px;
+}
+
+.connexion-interactible-expended {
+    row-gap: 16px;
+    transition: all 200ms linear;
+}
+
+.connexion-interactible .connexion-form {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
@@ -19,15 +31,28 @@
     row-gap: 8px;
 }
 
-.connexion-interactible p, .connexion-interactible form label {
+.connexion-interactible p.interactible-title, .connexion-interactible form label {
     color: var(--primary-color);
 }
 
-.connexion-interactible p {
+.connexion-interactible p.interactible-title {
     font: var(--title-minor-font);
     margin: 0;
 }
 
+.connexion-interactible p.go-inscription {
+    font: var(--text-font);
+    margin: 0;
+    color: var(--interactible-color);
+}
+
 .connexion-interactible form label {
     font: var(--text-title-font);
+}
+
+.connexion-interactible form input[type='text'], .connexion-interactible form input[type='password'] {
+    font: var(--text-font);
+    border-radius: 4px;
+    box-shadow: 0px 2px var(--primary-color);
+    border: none;
 }

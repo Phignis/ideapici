@@ -17,9 +17,6 @@
     --interactible-darker-2-color: #666070;
     --background-color: #DAF4EF;
 
-    /** set rem base at 16px */
-    font-size: 16px;
-
     /* text font variables */
     --description-subtitle-font: 0.812rem 'Poppins', sans-serif;
     --text-font: 1rem 'Poppins', sans-serif;

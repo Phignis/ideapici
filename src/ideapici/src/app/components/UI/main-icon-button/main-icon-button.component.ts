@@ -22,7 +22,7 @@ export class MainIconButtonComponent {
   constructor(private router: Router) {}
 
   protected redirect(wantedDestination: string) : void {
-    this.router.navigate([`/${this.destination}`]);
+    this.router.navigate([`/${wantedDestination}`]);
   }
 
   @HostListener('mouseenter')

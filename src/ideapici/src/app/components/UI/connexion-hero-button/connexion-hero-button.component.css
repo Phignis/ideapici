@@ -1,0 +1,33 @@
+.connexion-interactible {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 64px;
+
+    padding: 24px 8px;
+    background-color: var(--secondary-color);
+    border-radius: 24px;
+}
+
+.connexion-interactible form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    row-gap: 8px;
+}
+
+.connexion-interactible p, .connexion-interactible form label {
+    color: var(--primary-color);
+}
+
+.connexion-interactible p {
+    font: var(--title-minor-font);
+    margin: 0;
+}
+
+.connexion-interactible form label {
+    font: var(--text-title-font);
+}

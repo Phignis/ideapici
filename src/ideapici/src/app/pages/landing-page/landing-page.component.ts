@@ -6,4 +6,8 @@ import { Component, Input, ViewChild } from '@angular/core';
   styleUrls: ['./landing-page.component.css']
 })
 export class LandingPageComponent {
+  protected expendContent() {
+    // TODO: create landing page content and expend the section
+    console.log("hey");
+  }
 }

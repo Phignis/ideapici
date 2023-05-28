@@ -17,6 +17,7 @@ import { LandingPageComponent } from './pages/landing-page/landing-page.componen
 import { HeaderHeroComponent } from './components/header-hero/header-hero.component';
 import { ButtonComponent } from './components/UI/button/button.component';
 import { HeroButtonComponent } from './components/UI/hero-button/hero-button.component';
+import { ConnexionHeroButtonComponent } from './components/UI/connexion-hero-button/connexion-hero-button.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { HeroButtonComponent } from './components/UI/hero-button/hero-button.com
     HeaderHeroComponent,
     ButtonComponent,
     HeroButtonComponent,
+    ConnexionHeroButtonComponent,
   ],
   imports: [
     BrowserModule,

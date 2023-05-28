@@ -4,7 +4,7 @@ header {
     justify-content: space-around;
     align-items: center;
 
-
+    margin-top: 24px;
     padding: 0;
     width:100%;
 }
@@ -15,10 +15,6 @@ header .central-part {
     justify-content: space-between;
     align-items: center;
     row-gap: 4px;
-}
-
-:host {
-    margin-top: 24px;
 }
 
 .central-part p {

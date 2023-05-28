@@ -1,15 +1,9 @@
-svg {
-    height: 100px;
-    width: auto;
-}
-
 svg:hover {
     transform: scale(1.1);
     transition: all 200ms ease-in-out;
 }
 
 svg:hover .movable-part {
-    /* TODO : make movable part moving like lighting up */
     animation: flickers-path-svg 600ms linear;
     stroke: var(--interactible-color)
 }

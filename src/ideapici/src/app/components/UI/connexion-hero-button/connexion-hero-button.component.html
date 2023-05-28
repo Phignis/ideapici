@@ -1,0 +1,13 @@
+<div [ngClass]="elementsVisible ? 'connexion-interactible-expended' : 'connexion-interactible-folded'" class="connexion-interactible" (click) = "revealContent()">
+    <p class="interactible-title">Connexion</p>
+
+    <ng-content></ng-content>
+
+    <p [ngClass]="elementsVisible ? 'go-inscription' : 'not-displayed'">S'inscrire</p>
+    <form [ngClass]="elementsVisible ? 'connexion-form' : 'not-displayed'">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" required>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+    </form>
+</div>

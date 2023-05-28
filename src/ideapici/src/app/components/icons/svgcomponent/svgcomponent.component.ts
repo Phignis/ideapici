@@ -8,4 +8,10 @@ import { Component, Input } from '@angular/core';
 export class SVGComponentComponent {
   @Input()
   public fillColor: string = 'red';
+
+  @Input()
+  public width: string = '40px';
+
+  @Input()
+  public height : string = '40px';
 }

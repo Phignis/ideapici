@@ -1,6 +1,6 @@
 import { Component, ContentChild, ElementRef, HostListener, Input } from '@angular/core';
 import { Router } from '@angular/router';
-import { SVGComponentComponent } from '../icons/svgcomponent/svgcomponent.component';
+import { SVGComponentComponent } from '../../icons/svgcomponent/svgcomponent.component';
 
 @Component({
   selector: 'app-main-icon-button',
@@ -22,7 +22,7 @@ export class MainIconButtonComponent {
   constructor(private router: Router) {}
 
   protected redirect(wantedDestination: string) : void {
-    this.router.navigate([`/${this.destination}`]);
+    this.router.navigate([`/${wantedDestination}`]);
   }
 
   @HostListener('mouseenter')

@@ -17,9 +17,6 @@
     --interactible-darker-2-color: #666070;
     --background-color: #DAF4EF;
 
-    /** set rem base at 16px */
-    font-size: 16px;
-
     /* text font variables */
     --description-subtitle-font: 0.812rem 'Poppins', sans-serif;
     --text-font: 1rem 'Poppins', sans-serif;
@@ -31,14 +28,22 @@
     --title-page-font: 3.812rem 'Comfortaa', sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     margin: 0;
-    padding: 16px;
+    padding: 0px 16px;
     background-color: var(--background-color);
 
     /* usefull to display on larger screen, juste max using 1980px, margin here to ensure that body is centered */
     max-width: 1980px;
     margin: auto;
+}
+
+.page-content {
+    margin-top: 16px;
 }
 
 .page-title {
@@ -65,6 +70,13 @@ body {
 .text-link:hover, .text-title-link:hover {
     transform: scale(1.05);
     transition: all 250ms ease-in-out;
+}
+
+.connexion-interactible form input[type='text'], .connexion-interactible form input[type='password'] {
+    font: var(--text-font);
+    border-radius: 4px;
+    box-shadow: 0px 2px var(--primary-color);
+    border: none;
 }
 
 @keyframes flickers-path-svg {
@@ -94,5 +106,26 @@ body {
         stroke-width: 11px;
 		stroke: var(--interactible-darker-color);
 		transform: rotate(0deg);
+	}
+}
+
+@keyframes swing {
+	0% {
+		transform: rotate(0deg);
+	}
+	10% {
+		transform: rotate(-5deg);
+	}
+	30% {
+		transform: rotate(5deg) scale(1.2);
+	}
+	60% {
+		transform: rotate(-5deg) scale(1);
+	}
+	80% {
+		transform: rotate(5deg) scale(1.5);
+	}
+	100% {
+		transform: rotate(0deg) scale(1.2);
 	}
 }

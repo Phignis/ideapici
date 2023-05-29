@@ -1,24 +1,13 @@
-
 h2{
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 31px;
+    font: var(--title-minor-font);
 
     /* or 37px */
     text-align: center;
 
     color: #000000;
-
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
 }
 
-.sujet{
+.content {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -35,18 +24,16 @@ h2{
     align-self: stretch;
     flex-grow: 1;
 }
-.filter{
+
+.filter {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 31px;
+    font: var(--title-minor-font);
     text-align: center;
     color:#78D6C6;;
     padding: 13px 8px;
-    /*gap: 29px;
+    /*gap: 29px; */
     
     /* secondary */
     background: #1E555C;

@@ -1,0 +1,6 @@
+.config-info {
+    width: 18vw;
+    height: 22vw;
+    background-color: var(--primary-color);
+    border-radius: 5%;
+}

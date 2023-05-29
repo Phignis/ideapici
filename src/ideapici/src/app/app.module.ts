@@ -10,6 +10,7 @@ import { SharingLinkButtonComponent } from './components/sharing-link-button/sha
 import { PerformanceCardComponent } from './components/performance-card/performance-card.component';
 import { PerformanceInfoComponent } from './components/performance-info/performance-info.component';
 import { ConfigVisualisationPageComponent } from './pages/config-visualisation-page/config-visualisation-page.component';
+import { ConfigInfoComponent } from './components/config-info/config-info.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ConfigVisualisationPageComponent } from './pages/config-visualisation-p
     SharingLinkButtonComponent,
     PerformanceCardComponent,
     PerformanceInfoComponent,
-    ConfigVisualisationPageComponent
+    ConfigVisualisationPageComponent,
+    ConfigInfoComponent
   ],
   imports: [
     BrowserModule,

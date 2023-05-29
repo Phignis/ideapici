@@ -1,0 +1,28 @@
+#page_not_found-img {
+    width: 25vw;
+    height: auto;
+}
+
+
+figcaption {
+    font: var(--text-larger-font);
+}
+
+a {
+    font: var(--text-font);
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.page_not_found_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

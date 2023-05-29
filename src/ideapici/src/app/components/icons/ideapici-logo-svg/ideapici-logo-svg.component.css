@@ -1,0 +1,5 @@
+svg:hover {
+    transform: scale(1.2);
+    animation: swing 600ms linear;
+    transition: all 200ms ease-in-out;
+}

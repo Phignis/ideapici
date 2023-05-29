@@ -1,0 +1,30 @@
+.main-button-iconified {
+    display: flex;
+    flex-flow: row nowrap; /* don't want to have icon above text */
+    column-gap: 16px;
+    padding: 8px 40px;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+
+    background-color: var(--secondary-color);
+    border-radius: 16px;
+}
+
+.main-button-iconified p {
+    font: var(--text-title-font);
+    color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+}
+
+.main-button-iconified:hover {
+    transform: scale(1.05);
+    transition: all 250ms ease-in-out;
+}
+
+.main-button-iconified:hover p {
+    color: var(--interactible-color);
+    font-weight: bold;
+}

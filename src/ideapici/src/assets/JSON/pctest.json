@@ -1,0 +1,33 @@
+[
+    {
+        "marque": "ASSER",
+        "nom": "Respire TC10",
+        "type": "fixe",
+        "ecran": null,
+        "clavier": null,
+        "system": {
+            "ram": 32,
+            "cpu": {
+                "marque":"INTELLE",
+                "nom": "X9 900",
+                "score": 25000,
+                "core": 2,
+                "frequence-max": 5900,
+                "tdp": 125
+            },
+            "hdd": {
+                "capacite": 3840,
+                "type": "nvme",
+                "rpm": null,
+                "vitesse-transfert": 3000
+            },
+            "cg": {
+                "marque": "NVADIA",
+                "modele": "RTZ 3080",
+                "score": 20000
+            }
+        },
+        "batterie" : null,
+        "prix": 1000
+    }
+]

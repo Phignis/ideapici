@@ -1,0 +1,27 @@
+.main-button-iconified {
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 16px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 2px var(--interactible-darker-2-color);
+
+    background-color: var(--interactible-color);
+    stroke: solid 2px var(--interactible-darker-2-color);
+    border-radius: 16px;
+}
+
+.main-button-iconified p {
+    font: var(--text-larger-font);
+    color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+}
+
+.main-button-iconified:hover {
+    transform: scale(1.01);
+    background-color: var(--interactible-darker-color);;
+    transition: all 250ms ease-in-out;
+}

@@ -1,0 +1,6 @@
+.config-info {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: var(--primary-color);
+    border-radius: 16px;
+}

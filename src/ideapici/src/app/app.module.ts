@@ -14,6 +14,12 @@ import { IdeapiciLogoSvgComponent } from './components/icons/ideapici-logo-svg/i
 import { TitledIconIdeapiciComponent } from './components/titled-icon-ideapici/titled-icon-ideapici.component';
 import { IdeapiciLogoSvgWiredComponent } from './components/icons/ideapici-logo-svg-wired/ideapici-logo-svg-wired.component';
 import { SetupChoiceComponent } from './pages/setup-choice/setup-choice.component';
+import { ShareButtonComponent } from './components/share-button/share-button.component';
+import { SharingLinkButtonComponent } from './components/sharing-link-button/sharing-link-button.component';
+import { PerformanceCardComponent } from './components/performance-card/performance-card.component';
+import { PerformanceInfoComponent } from './components/performance-info/performance-info.component';
+import { ConfigVisualisationPageComponent } from './pages/config-visualisation-page/config-visualisation-page.component';
+import { ConfigInfoComponent } from './components/config-info/config-info.component';
 import { PcCardComponent } from './components/pc-card/pc-card.component';
 import { TextcomboboxComponent } from './components/textcombobox/textcombobox.component';
 import { TextSliderComponent } from './components/text-slider/text-slider.component';
@@ -32,6 +38,12 @@ import { ConnexionHeroButtonComponent } from './components/UI/connexion-hero-but
     AppComponent,
     NotFoundPageComponent,
     SetupChoiceComponent,
+    ShareButtonComponent,
+    SharingLinkButtonComponent,
+    PerformanceCardComponent,
+    PerformanceInfoComponent,
+    ConfigVisualisationPageComponent,
+    ConfigInfoComponent,
     PcCardComponent,
     QuestionsPageComponent,
     TextcomboboxComponent,

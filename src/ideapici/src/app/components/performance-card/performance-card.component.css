@@ -1,0 +1,19 @@
+.performance-card {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: var(--primary-color);
+    border-radius: 8px 8px 0 0;
+    
+}
+
+h1 {
+    font: var(--text-larger-font);
+    
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

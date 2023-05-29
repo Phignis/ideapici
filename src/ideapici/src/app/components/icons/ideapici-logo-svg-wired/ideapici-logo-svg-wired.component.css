@@ -1,0 +1,9 @@
+svg:hover {
+    transform: scale(1.1);
+    transition: all 200ms ease-in-out;
+}
+
+svg:hover .movable-part {
+    animation: flickers-path-svg 600ms linear;
+    stroke: var(--interactible-color)
+}

@@ -3,9 +3,6 @@
     height: auto;
 }
 
-h1 {
-    font: var(--title-page-font);
-}
 
 figcaption {
     font: var(--text-larger-font);

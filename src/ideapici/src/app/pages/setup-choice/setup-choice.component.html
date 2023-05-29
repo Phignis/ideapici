@@ -17,8 +17,8 @@
     </aside>
     <article class="setuplist" >
         <app-pc-card *ngFor="let index of getIndicesArray(pcs.length)"
-            [cpu]="pcs[index].system.cpu.nom"
-            [gpu]="pcs[index].system.cg.marque"
+            [cpu]="pcs[index].system.cpu.marque + ' ' + pcs[index].system.cpu.nom"
+            [gpu]="pcs[index].system.cg.marque +' '+ pcs[index].system.cg.modele"
             [ram]="pcs[index].system.ram"
             [brand]="pcs[index].marque"
             [cost]="pcs[index].prix">

@@ -4,7 +4,7 @@
 }
 
 h1 {
-    font: var(--text-title-font);
+    font: var(--title-page-font);
 }
 
 figcaption {

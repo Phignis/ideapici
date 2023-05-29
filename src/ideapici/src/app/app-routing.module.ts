@@ -8,6 +8,7 @@ const routes: Routes = [
 
   // TODO : substitute NotFoundPageComponent with landing page
   {path: "index", component: NotFoundPageComponent},
+  {path: "questions-page", component: QuestionsPageComponent},
   {path: "setup-choice", component: SetupChoiceComponent},
   {path: "**", component: NotFoundPageComponent},
   

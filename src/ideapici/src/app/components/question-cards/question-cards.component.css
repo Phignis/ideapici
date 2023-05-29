@@ -1,0 +1,32 @@
+:host {
+    height: 100%;
+    width: 80%;
+}
+
+.card {
+    height: 60%;
+    width: 60%;
+    background: var(--secondary-color);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.question {
+    font: var(--text-title-font);
+    padding: 10px;
+    color: var(--primary-color);
+}
+
+.radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form-control {
+    font: var(--text-font);
+    color: var(--primary-color);
+}

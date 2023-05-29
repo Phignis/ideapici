@@ -12,6 +12,8 @@ import { TextSliderComponent } from './components/text-slider/text-slider.compon
 import { QuestionsPageComponent } from './pages/questions-page/questions-page.component';
 import { QuestionCardsComponent } from './components/question-cards/question-cards.component';
 import { QuestionIndicatorComponent } from './components/question-indicator/question-indicator.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +30,8 @@ import { QuestionIndicatorComponent } from './components/question-indicator/ques
   imports: [
     AppRoutingModule,
     BrowserModule,
-    FormsModule    
+    FormsModule,
+    HttpClientModule    
   ],
   providers: [],
   bootstrap: [AppComponent]

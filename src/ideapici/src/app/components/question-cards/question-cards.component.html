@@ -1,1 +1,12 @@
-<p>question-cards works!</p>
+<section class="card">
+    <h1 class="question">Privilégiez-vous une grande capacité de stockage ou une vitesse de traitement plus rapide ?</h1>
+    <section class="radio"> 
+        <input type="radio" id="input-{{responses[0].value}}" value="{{responses[0].value}}"
+            name="vitesse-hdd" checked>
+        <label class="form-control" for="input-{{responses[0].value}}">{{responses[0].value}}</label>
+        <span *ngFor="let rep of responses | slice:1">
+            <input type="radio" id="input-{{rep.value}}" name="vitesse-hdd">
+            <label class="form-control" for="input-{{rep.value}}">{{rep.value}}</label>
+        </span>
+    </section>
+</section>

@@ -18,8 +18,8 @@ figure {
 }
 
 .sharing_button {
-    width: 14vw;
-    height: 22vw;
+    display: flex;
+    flex-flow: column nowrap;
     background-color: var(--secondary-color);
-    border-radius: 5%;
+    border-radius: 16px;
 }

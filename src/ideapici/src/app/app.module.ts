@@ -43,7 +43,7 @@ import { ConnexionHeroButtonComponent } from './components/UI/connexion-hero-but
     PerformanceCardComponent,
     PerformanceInfoComponent,
     ConfigVisualisationPageComponent,
-    ConfigInfoComponent
+    ConfigInfoComponent,
     PcCardComponent,
     QuestionsPageComponent,
     TextcomboboxComponent,

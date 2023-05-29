@@ -1,6 +1,6 @@
 .config-info {
-    width: 18vw;
-    height: 22vw;
+    display: flex;
+    flex-flow: column nowrap;
     background-color: var(--primary-color);
-    border-radius: 5%;
+    border-radius: 16px;
 }

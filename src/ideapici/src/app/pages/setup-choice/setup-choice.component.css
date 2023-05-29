@@ -21,9 +21,12 @@ h2{
 .sujet{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: flex-start;
     padding: 0px;
-    /*gap: 8px;
+    /*gap: 8px; */
+
+    width: 100%;
    
 
     /* Inside auto layout */
@@ -58,12 +61,15 @@ h2{
 
 }
 
-.setuplist{
+.setuplist {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px;
     gap: 14px;
+    max-width: 80%;
+
+    overflow-x: scroll;
 
     background: #BCEBE3;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);

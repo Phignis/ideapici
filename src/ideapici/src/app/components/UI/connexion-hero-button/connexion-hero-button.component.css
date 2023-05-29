@@ -40,7 +40,7 @@
     margin: 0;
 }
 
-.connexion-interactible p.go-inscription {
+.connexion-interactible a.go-inscription {
     font: var(--text-font);
     margin: 0;
     color: var(--interactible-color);

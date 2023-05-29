@@ -5,14 +5,14 @@
     <aside class="filter">
         <p>Filters</p>
             <div>
-                <app-textcombobox Text="Preference CPU" [option]="['Intel', 'AMDé' ]"></app-textcombobox>
-                <app-textcombobox Text="Preference GPU" [option]="['NVIDAI', 'AMDé' ]"></app-textcombobox>
+                <app-textcombobox Text="Preference CPU" [option]="['Intel', 'AMDé' ]" (selectedValues)="newfilter( 0,$event)"></app-textcombobox>
+                <app-textcombobox Text="Preference GPU" [option]="['NVIDAI', 'AMDé' ]" (selectedValues)="newfilter( 1,$event)"></app-textcombobox>
                 <app-text-slider Title="Budget" min="0" max="2500" sliderValue="10"></app-text-slider>
             </div>
         <p>Jeux vidéo</p>
         <div>
-            <app-textcombobox Text="Fortnite" [option]="['60 FPS', '144 FPS' ]"></app-textcombobox>
-            <app-textcombobox Text="Valorant" [option]="['60 FPS', '144 FPS' ]"></app-textcombobox>
+            <app-textcombobox Text="Fortnite" [option]="['60 FPS', '144 FPS' ]" (selectedValues)="newfilter( 3,$event)"></app-textcombobox>
+            <app-textcombobox Text="Valorant" [option]="['60 FPS', '144 FPS' ]" (selectedValues)="newfilter( 4,$event)"></app-textcombobox>
         </div>
     </aside>
     <article class="setuplist" >

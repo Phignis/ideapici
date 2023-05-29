@@ -1,4 +1,4 @@
-import { Component,Input } from '@angular/core';
+import { Component,Input, Output, EventEmitter  } from '@angular/core';
 
 @Component({
   selector: 'app-textcombobox',
@@ -9,4 +9,11 @@ export class TextcomboboxComponent {
   @Input() Text: string;
   @Input() option: string[];
   selected: any = "any";
+
+  @Output() selectedValues = new EventEmitter<string>();
+
+  output(value: string) {
+    console.log("output", this.selected)
+    this.selectedValues.emit(this.selected);
+  }
 }

@@ -11,6 +11,13 @@ export class SetupChoiceComponent implements OnInit  {
   @Input() Answers : Question[];
   pcs: Pc[] = data;
 
+  filteParam : any[] = new Array(6);
+
+  newfilter(pos: number ,newfilterparam: any) {
+    console.log("nouveau filtre ", this.filteParam);
+    this.filteParam[pos]= newfilterparam;
+  }
+
   ngOnInit(): void {
     //console.log(this.pcs[0].system.cpu.marque);
 

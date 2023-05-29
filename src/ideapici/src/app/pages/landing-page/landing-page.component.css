@@ -44,7 +44,7 @@
 .scrollable-content {
     width: 100%;
     overflow-y: hidden;
-    height: 6rem;
+    
     
 
     display: flex;
@@ -52,6 +52,14 @@
     justify-content: flex-start;
     align-items: center;
     row-gap: 48px;
+}
+
+.landing-content-collapsed {
+    height: 6rem;
+}
+
+.landing-content-expended {
+    height: 30rem;
 }
 
 .page-content .scrollable-content p.content-title {

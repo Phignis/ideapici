@@ -5,7 +5,7 @@
 </section>
 
 <section class="page-content" (click)="expendContent()"> <!-- $ before var indicates that var is observable (based on conception pattern Observer) -->
-    <div class="scrollable-content">
+    <div class="scrollable-content" [ngClass]="isContentExpended? 'landing-content-expended' : 'landing-content-collapsed'">
         <p class="content-title">Je peux t’aider à créer une configuration PC, ou te suggérer un PC portable!</p>
         <p>Je peux t’aider à créer une configuration PC, ou te suggérer un PC portable!</p>
         <p>Je peux t’aider à créer une configuration PC, ou te suggérer un PC portable!</p>

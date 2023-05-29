@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +14,13 @@ import { IdeapiciLogoSvgComponent } from './components/icons/ideapici-logo-svg/i
 import { TitledIconIdeapiciComponent } from './components/titled-icon-ideapici/titled-icon-ideapici.component';
 import { IdeapiciLogoSvgWiredComponent } from './components/icons/ideapici-logo-svg-wired/ideapici-logo-svg-wired.component';
 import { SetupChoiceComponent } from './pages/setup-choice/setup-choice.component';
+import { PcCardComponent } from './components/pc-card/pc-card.component';
+import { TextcomboboxComponent } from './components/textcombobox/textcombobox.component';
+import { TextSliderComponent } from './components/text-slider/text-slider.component';
+import { QuestionsPageComponent } from './pages/questions-page/questions-page.component';
+import { QuestionCardsComponent } from './components/question-cards/question-cards.component';
+import { QuestionIndicatorComponent } from './components/question-indicator/question-indicator.component';
+import { HttpClientModule } from '@angular/common/http';
 import { LandingPageComponent } from './pages/landing-page/landing-page.component';
 import { HeaderHeroComponent } from './components/header-hero/header-hero.component';
 import { ButtonComponent } from './components/UI/button/button.component';
@@ -23,6 +31,13 @@ import { ConnexionHeroButtonComponent } from './components/UI/connexion-hero-but
   declarations: [
     AppComponent,
     NotFoundPageComponent,
+    SetupChoiceComponent,
+    PcCardComponent,
+    QuestionsPageComponent,
+    TextcomboboxComponent,
+    TextSliderComponent,
+    QuestionCardsComponent,
+    QuestionIndicatorComponent,
     MainIconButtonComponent,
     PeopleProfileIconComponent,
     PeopleIncriptionAddIconComponent,
@@ -31,7 +46,6 @@ import { ConnexionHeroButtonComponent } from './components/UI/connexion-hero-but
     IdeapiciLogoSvgComponent,
     TitledIconIdeapiciComponent,
     IdeapiciLogoSvgWiredComponent,
-    SetupChoiceComponent,
     LandingPageComponent,
     HeaderHeroComponent,
     ButtonComponent,
@@ -39,8 +53,10 @@ import { ConnexionHeroButtonComponent } from './components/UI/connexion-hero-but
     ConnexionHeroButtonComponent,
   ],
   imports: [
+    AppRoutingModule,
     BrowserModule,
-    AppRoutingModule
+    FormsModule,
+    HttpClientModule    
   ],
   providers: [],
   bootstrap: [AppComponent]

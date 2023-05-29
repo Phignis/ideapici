@@ -1,0 +1,31 @@
+:host {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#config_link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#config_link a {
+    margin-right: 13rem;
+}
+
+.cards {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+app-question-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}

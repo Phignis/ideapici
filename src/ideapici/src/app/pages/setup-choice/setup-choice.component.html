@@ -1,3 +1,27 @@
-<app-header></app-header>
 
-<p>setup-choice works!</p>
+<app-header></app-header>
+<h2>Je te propose ces configs, clique sur ta favorite</h2>
+<div class="content">
+    <aside class="filter">
+        <p>Filters</p>
+            <div>
+                <app-textcombobox Text="Preference CPU" [option]="['Intel', 'AMDé' ]"></app-textcombobox>
+                <app-textcombobox Text="Preference GPU" [option]="['NVIDAI', 'AMDé' ]"></app-textcombobox>
+                <app-text-slider Title="Budget" min="0" max="2500" sliderValue="10"></app-text-slider>
+            </div>
+        <p>Jeux vidéo</p>
+        <div>
+            <app-textcombobox Text="Fortnite" [option]="['60 FPS', '144 FPS' ]"></app-textcombobox>
+            <app-textcombobox Text="Valorant" [option]="['60 FPS', '144 FPS' ]"></app-textcombobox>
+        </div>
+    </aside>
+    <article class="setuplist" >
+        <app-pc-card *ngFor="let index of getIndicesArray(pcs.length)"
+            [cpu]="pcs[index].system.cpu.nom"
+            [gpu]="pcs[index].system.cg.marque"
+            [ram]="pcs[index].system.ram"
+            [brand]="pcs[index].marque"
+            [cost]="pcs[index].prix">
+        </app-pc-card>
+    </article>
+</div>

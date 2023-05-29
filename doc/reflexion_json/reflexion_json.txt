@@ -1,0 +1,16 @@
+Notre fichier json doit servir à stocker les différentes questions que l'on posera aux utilisateurs.
+Il doit également servir à stocker les réponses qui serviront à proposer l'odinateur le plus adéquat.
+Nous allons avoir besoins de parcourir le fichier afin de sélectionner une question à afficher et 
+une réponse à y inscrire.
+Le fichier doit donc être structurer de sorte à permettre la recherche parmis une base de données de
+questions/réponses.
+
+On peut s'inspirer de fichier json contenant les différents ordinateurs et leurs caractéristiques et
+composants.
+Ce dernier organise ses information sous la forme d'un tableau contenant les différents ordinateurs.
+Chaque ordinateurs est ensuite contenu dans un objet, qui contient des clé relié à des valeurs, et 
+parfois même d'autres objets pour préciser les caractéristiques de certains composants.
+
+On peut alors créer un tableau regroupant toutes les questions sous formes d'objet. Pour chaque 
+questions il y aura un objet interne regroupant les réponses possibles, et valeur contenant une réponse
+par défaut que l'on modifiera en fonction de celle de l'utilisateur.
